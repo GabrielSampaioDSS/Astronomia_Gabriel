@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px) {
+  #header {
+    padding: 10px 0;
+  }
+  #header h1 {
+    margin: 10px 0;
+    font-size: 200%;
+  }
+  #main {
+    flex-direction: column;
+  }
+  #menu {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0;
+  }
+  #menu span {
+    display: none;
+  }
+  #menu ul {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    margin: 0;
+  }
+  #content {
+    width: 100%;
+    padding: 10px 0;
+  }
+  #content-title {
+    font-size: 150%;
+  }
+  .content-card {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 70%;
+  }
+  .content-card span,
+  .content-card img {
+    width: 100%;
+  }
+  .content-card span {
+    text-align: center;
+  }
+  .content-card img {
+    margin-bottom: 20px;
+  }
+}

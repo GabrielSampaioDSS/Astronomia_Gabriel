@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "slogan";
+  src: url(../fonts/Comfortaa-Bold.ttf);
+}
+
+@font-face {
+  font-family: "bold-title";
+  src: url(../fonts/Cinzel-Bold.ttf);
+}
+
+@font-face {
+  font-family: "regular-text";
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
